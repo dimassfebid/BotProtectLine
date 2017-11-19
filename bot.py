@@ -23,6 +23,7 @@ wait = {
     'setTime':{},
     'ROM':{},
     'ProtectQR':True
+  #  "ProtectQR":True,
   #  "Protectguest":True,
   #  "Protectcancel":True,
   #  "protectionOn":True,	
@@ -116,7 +117,7 @@ def SEND_MESSAGE(op):
 		if msg.text == "Speed":
                     start = time.time()
                     elapsed_time = time.time() - start
-                    sendMessage(msg.to, "%sdetik" % (elapsed_time))
+                    sendMessage(msg.to, "\n\Processing 69% %s detik" % (elapsed_time))
 #-------------------------------------------------------------
 
         else:
